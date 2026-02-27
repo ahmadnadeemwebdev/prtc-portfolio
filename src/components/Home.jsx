@@ -217,7 +217,7 @@ p-6 rounded-3xl shadow-md"
         </p>
         <Link
           to="/about"
-          className="duration-500 bg-[#5f48a0] text-white px-6 py-3 rounded-lg flex items-center justify-center mb-8 hover:bg-gray-200 hover:text-[#5f48a0]"
+          className="duration-500 bg-[#5f48a0] text-white max-w-48 py-3 rounded-lg flex items-center justify-center ml-auto mr-auto mb-8 hover:bg-gray-200 hover:text-[#5f48a0]"
         >
           Learn More
         </Link>
