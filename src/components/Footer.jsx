@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-  <footer className="bg-[#36213c] mt-11 text-white py-3">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center ">
+  <footer className="bg-[#36213c]   mt-11 text-white py-3">
+      <div className="container mx-auto  px-4 flex flex-col md:flex-row items-center ">
         
-        <div className=" md:text-left mb-4 md:mb-0">
+        <div className=" md:text-left mt-10 bottom-  mb-4 md:mb-0">
           <h1 className="text-xl font-bold">Ahmad Nadeem</h1>
           <p className="text-gray-400 mb-9" >© 2026 All rights reserved</p>
           <h2 className=' text-gray-400 mb-4'>Inventor Design Studio Is A creative technology <br />

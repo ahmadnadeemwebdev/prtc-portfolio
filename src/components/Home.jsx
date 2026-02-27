@@ -117,18 +117,6 @@ p-6 rounded-3xl shadow-md"
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
       <div className="py-12 px-4 md:px-20">
         <h1 className="text-6xl font-bold text-center text-purple-500">
           What Will Do

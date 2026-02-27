@@ -1,16 +1,59 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ye mera personal portfolio website hai jo **React.js** aur **Tailwind CSS** se banaya gaya hai.  
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Section** – Short intro aur welcome message
+- **About Section** – Mere baare mai info
+- **Skills Section** – Tech stack aur skills
+- **Projects Section** – Kuch projects jo maine banaye
+- **Contact Section** – Contact form ya contact info
+- Fully responsive design
+- Navigation using **React Router**
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **Routing:** React Router  
 
-## Expanding the ESLint configuration
+## Live Demo
+local host
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+
+1. Repository clone karo:  
+   ```bash
+   git clone <your-repo-url>
+
+Project folder mai jao:
+
+cd portfolio
+
+Dependencies install karo:
+
+npm install
+
+Project start karo:
+
+npm start
+
+Browser automatically http://localhost:5173 open karega.
+
+Folder Structure
+prtc/
+├── public/
+├── src/
+├── .gitignore/
+│   ├── components/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   └── Contact.jsx
+        └── Footer.jsx
+│   ├── App.jsx
+│   └── index.js
+├── package.json
+└── README.md
